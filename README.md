@@ -8,14 +8,14 @@ Los valores se realizarón en el mejor de los casos.<br>
 import time<br>
 s=time.time()<br>
 def insertion_short(A):<br>
-    for j in range(len(A)):<br>
-        key=A[j]<br>
-        i=j-1<br>
-        while i>=0 and key < A[i]:<br>
-            A[i+1] = A[i]<br>
-            i=i-1<br>
-        A[i+1]=key<br>
-    return A<br>
+    ___for j in range(len(A)):<br>
+       ______ key=A[j]<br>
+        ______i=j-1<br>
+        ______while i>=0 and key < A[i]:<br>
+            _________A[i+1] = A[i]<br>
+            _________i=i-1<br>
+        ______A[i+1]=key<br>
+    ___return A<br>
 A=[]<br>
 for i in range(10000000):<br>
     A.append(i)<br>
