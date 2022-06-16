@@ -16,7 +16,7 @@ def insertion_short(A):<br>
             _________i=i-1<br>
         ______A[i+1]=key<br>
     ___return A<br>
-A=[]<br>
+A=[_]<br>
 for i in range(10000000):<br>
     A.append(i)<br>
 insertion_short(A)<br>
